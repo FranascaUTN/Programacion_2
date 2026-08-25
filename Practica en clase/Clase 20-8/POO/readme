@@ -1,0 +1,23 @@
+Objeto: Cualquier cosa cobn caracteristicas y tenga un sentido. Va a tener atributos que lo deferencie
+de otro. 
+
+Un objeto, puede ser tangible e intangible.
+Un conjunto de objetios es una clase
+
+Ej: Clase: Auto
+    Atributos: 
+        numero_puertas: 
+        color:
+        numero_motor: 
+        patente: 
+    Comportamientos:
+        cambiar_color:
+        cambiar_patente:
+        dame_patente: 
+
+Cada auto que creo basandome en esta "plantilla" se convierte en un objeto de la clase Auto
+
+Cada clase puede tener sub clase, que comparten atrubutos de su clase "padre" pero se le suman
+los atributos y funciones de la clase "hija". A estos se le llama herencia.
+
+
