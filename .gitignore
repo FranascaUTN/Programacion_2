@@ -1,0 +1,13 @@
+# Cache y compilados de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales (para cuando instales librerias externas)
+venv/
+env/
+
+# Archivos ocultos que genera Windows solos
+Thumbs.db
+
+# Configuraciones locales de Visual Studio Code
+.vscode/
