@@ -1,0 +1,34 @@
+# 🛠️ Machete de Comandos de Git y GitHub
+
+Acá tenés los comandos básicos de supervivencia para el uso diario en el desarrollo del proyecto.
+
+## 🧭 1. Navegación y Consulta
+Comandos para ubicarte y ver el estado del proyecto sin modificar nada.
+
+| Comando | ¿Para qué sirve? | Ejemplo práctico |
+| :--- | :--- | :--- |
+| `git status` | Tu mejor amigo. Te dice en qué rama estás y qué archivos están modificados o listos para subir. | `git status` |
+| `git branch` | Lista las ramas que tenés en tu compu. La que tiene el `*` es la rama en la que estás actualmente. | `git branch` |
+| `git switch <rama>` | Te cambia de la rama actual a la que le indiques. | `git switch main` |
+| `git switch -c <rama>`| **Crea** una rama nueva y automáticamente te mueve hacia ella. | `git switch -c iteracion-02/franco-ascacibar` |
+
+## 💾 2. Guardado y Sincronización
+Comandos para empaquetar tu trabajo y mandarlo a la nube de GitHub.
+
+| Comando | ¿Para qué sirve? | Ejemplo práctico |
+| :--- | :--- | :--- |
+| `git pull` | Descarga las últimas actualizaciones de la nube a tu compu. Siempre hacelo al pararte en `main`. | `git pull` |
+| `git add <archivo>` | Prepara el archivo modificado para ser guardado (lo pasa al área de preparación). | `git add banco.py` |
+| `git commit -m "..."` | Guarda los archivos preparados en el historial con un mensaje descriptivo. | `git commit -m "Agrega validación de saldo"` |
+| `git push` | Sube tus commits (tu código guardado) a tu rama en GitHub. | `git push` |
+
+---
+
+## 🔄 El Flujo de Trabajo Diario
+
+Cada vez que te sientes a programar y quieras guardar tu progreso, el ciclo exacto es:
+
+1. `git status` *(Mirás qué archivos modificaste)*
+2. `git add banco.py` *(Preparás el archivo)*
+3. `git commit -m "mensaje"` *(Guardás la "foto" de tu código)*
+4. `git push` *(Subís los cambios a GitHub)*
