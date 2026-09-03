@@ -9,6 +9,8 @@
 * `git commit -m "mensaje"` : Guarda los cambios con un texto descriptivo.
 * `git push` : Sube todo tu trabajo guardado a tu rama en GitHub.
 
+* `git log` : Te muestra el historial de commits
+
 ### Flujo de trabajo para guardar código:
 1. `git status`
 2. `git add <archivo>`
